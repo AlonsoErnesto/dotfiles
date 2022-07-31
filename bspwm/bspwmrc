@@ -178,3 +178,25 @@ bspc desktop -f 1 &
 
 picom --experimental-backends &
 bspc config border_width 0
+
+bspc config top_margin 10
+bspc config left_margin 10
+bspc config right_margin 10
+bspc config bottom_margin 10
+
+bspc config window_gap 10;
+bspc config top_padding 50
+bspc config left_padding 30
+bspc config right_padding 30
+bspc config bottom_padding 50
+
+
+#bspc config normal_frame_opacity 1.0
+#bspc config focused_frame_opacity 0.05
+#bspc config focused_border_color "#99CC99"
+#bspc config normal_border_color "#000000"
+#bspc config presel_border_color "#8F3724"
+#bspc config urgent_border_color "#504339"
+#bspc config focused_private_border_color "#35BF5C"
+#bspc config border_width 2
+
